@@ -4,7 +4,7 @@
 
     let message = "";
     onMount(async () => {
-        const response = await fetch("http://localhost:8080/hiddencontent",
+        const response = await fetch("https://zad-pki6.herokuapp.com//hiddencontent",
         {
             method: 'GET',
             headers: {

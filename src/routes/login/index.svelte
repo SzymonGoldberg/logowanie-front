@@ -7,7 +7,7 @@
     import { goto } from "$app/navigation";
 
     async function logIn() {
-        const response = await fetch("http://localhost:8080/login",{
+        const response = await fetch("https://zad-pki6.herokuapp.com/login",{
             method : 'POST',
             body : new URLSearchParams({
                 "email" : email,

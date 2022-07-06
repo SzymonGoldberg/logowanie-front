@@ -8,7 +8,7 @@
     import { goto } from '$app/navigation';
 
     async function submit() {
-        const response = await fetch("http://localhost:8080/register",
+        const response = await fetch("https://zad-pki6.herokuapp.com/register",
         {
             method: 'POST',
             body: new URLSearchParams({
